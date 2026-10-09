@@ -1,3 +1,3 @@
 # DSA
 
-My Python implementations of data structures and algorithms, plus solutions to problems from LeetCode.
+My implementations of data structures and algorithms in Python.
