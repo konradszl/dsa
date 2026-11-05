@@ -9,8 +9,16 @@ dependencies = []
 [dependency-groups]
 dev = [
     "pytest>=9.1.1",
+    "ruff>=0.17.4",
 ]
 
 [tool.pytest.ini_options]
 addopts = "--import-mode=importlib"
 pythonpath = ["."]
+testpaths = ["problems"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
